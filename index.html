@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbdulMuhe - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <div class="logo"><a href="index.html">
+                    <span class="logo-text">abdulmuhe</span>
+                </a> 
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                    <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+                    <a href="#portfolio" class="nav-link" data-section="portfolio">My Work</a>
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars" id="menu-icon"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#home" class="mobile-nav-link" data-section="home">Home</a>
+            <a href="#about" class="mobile-nav-link" data-section="about">About</a>
+            <a href="#experience" class="mobile-nav-link" data-section="experience">Experience</a>
+            <a href="#portfolio" class="mobile-nav-link" data-section="portfolio">Projects</a>
+            <a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="badge">Full Stack Developer</div>
+            <h1 class="hero-title">
+                <span class="hero-greeting">Hi, I'm </span>
+                <span class="hero-name">AbdulMuhe</span>
+            </h1>
+                <p class="hero-subtitle">I craft full-stack web applications and insightful data dashboards using Python and modern tools.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:abdulmuhe@example.com" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate developer with a love for creating innovative solutions</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/abdul.JPG" alt="AbdulMuhe" class="profile-img">
+                    <div class="image-overlay"></div>
+                </div>
+
+                <div class="about-text">
+                    <h3 class="about-title">Hello! I'm AbdulMuhe</h3>
+                    <p class="about-description">
+                        I'm a passionate full-stack developer with hands-on experience in building dynamic and responsive web applications using Python, Django, HTML, CSS, JavaScript, and modern frameworks. I also have strong skills in data analysis using tools like SQL, Power BI, and Excel, enabling me to turn raw data into meaningful insights and dashboards. With a background in cybersecurity, I focus on developing secure, scalable, and efficient digital solutions. I've built practical projects including a student management system and a cloud-based service portal, and I enjoy solving real-world problems through clean, user-friendly design and code
+                    </p>
+                    <p class="about-description">
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
+                        or sharing knowledge with the developer community.
+                    </p>
+
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-code skill-icon"></i>
+                            <h4 class="skill-title">Frontend</h4>
+                            <p class="skill-desc">HTML, CSS, React, JavaScript, Bootstrap</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-globe skill-icon"></i>
+                            <h4 class="skill-title">Backend</h4>
+                            <p class="skill-desc">Django, Python, Flask, PostgreSQL</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-mobile-alt skill-icon"></i>
+                            <h4 class="skill-title">Mobile</h4>
+                            <p class="skill-desc">React Native, Flutter</p>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-palette skill-icon"></i>
+                            <h4 class="skill-title">Design</h4>
+                            <p class="skill-desc">Figma, UI/UX, Tailwind</p>
+                        </div>
+                    </div>
+
+                    <a href="ABDULMUHE_RESUME.pdf" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+
+            <div class="experience-list">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3 class="experience-title">Full Stack Developer</h3>
+                            <p class="experience-company">HamoTech pvt ltd</p>
+                        </div>
+                        <div class="experience-period">2025 - Present</div>
+                    </div>
+                    <p class="experience-description">
+                        Leading development of scalable web applications using React, Django, and cloud technologies.
+                    </p>
+                    <div class="tech-tags">
+                      <span class="tech-tag">Python</span>
+                      <span class="tech-tag">Django</span>
+                      <span class="tech-tag">HTML</span>
+                      <span class="tech-tag">CSS</span>
+                      <span class="tech-tag">JavaScript</span>
+                      <span class="tech-tag">Bootstrap</span>
+                      <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3 class="experience-title">Frontend Developer</h3>
+                            <p class="experience-company">HamoTech pvt ltd</p>
+                        </div>
+                        <div class="experience-period">2024-2025</div>
+                    </div>
+                    <p class="experience-description">
+                        Developed responsive web applications and improved user experience across multiple projects.
+                        Collaborated with design teams to implement pixel-perfect interfaces.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">jQuery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop" alt="E-commerce Platform">
+                        <div class="portfolio-overlay"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">E-commerce Platform</h3>
+                        <p class="portfolio-description">Full-stack e-commerce solution with payment integration</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="portfolio-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=200&fit=crop" alt="Task Management App">
+                        <div class="portfolio-overlay"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Task Management App</h3>
+                        <p class="portfolio-description">Collaborative project management tool with real-time updates</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="portfolio-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=200&fit=crop" alt="Weather Dashboard">
+                        <div class="portfolio-overlay"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Weather Dashboard</h3>
+                        <p class="portfolio-description">Beautiful weather app with location-based forecasts</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Charts.js</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="portfolio-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your next project or just say hello!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p class="contact-label">Email</p>
+                                <p class="contact-value">abdulmuhe786@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p class="contact-label">Phone</p>
+                                <p class="contact-value">+91 9642365530</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p class="contact-label">Location</p>
+                                <p class="contact-value">White field, BANGLORE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-section">
+                        <h3 class="social-title">Follow Me</h3>
+                        <div class="social-icons">
+                            <a href="https://github.com/abdulmuhe" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/abdulmuhe-7041062bb/" class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:abdulmuhe786@gmail.com" class="social-icon">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3 class="form-title">Send Message</h3>
+                        <p class="form-subtitle">I'll get back to you as soon as possible</p>
+                        
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label">First Name</label>
+                                    <input type="text" class="form-input" placeholder="John" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Last Name</label>
+                                    <input type="text" class="form-input" placeholder="Doe" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-input" placeholder="john@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Subject</label>
+                                <input type="text" class="form-input" placeholder="Project Discussion" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-textarea" rows="4" placeholder="Tell me about your project..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">abdulmuhe</span>
+                </div>
+                <p class="footer-text">© 2024 AbdulMuhe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
