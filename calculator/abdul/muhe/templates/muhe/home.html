@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Muhe Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 30px 25px;
+      border-radius: 15px;
+      box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, select, button {
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .result {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        margin: 0 15px;
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Muhe Calculator</h2>
+    <form method="POST">
+      {% csrf_token %}
+      <input type="number" name="num1" placeholder="Enter first number" required>
+      <input type="number" name="num2" placeholder="Enter second number" required>
+      <select name="operation" required>
+        <option value="add">Addition (+)</option>
+        <option value="sub">Subtraction (-)</option>
+        <option value="mul">Multiplication (×)</option>
+        <option value="div">Division (÷)</option>
+        <option value="mod">Modulo (%)</option>
+      </select>
+      <button type="submit">Calculate</button>
+    </form>
+
+    {% if result is not None %}
+    <div class="result">
+      Result: {{ result }}
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>

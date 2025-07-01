@@ -1,0 +1,11 @@
+"Hi, I’m Abdul Muhe, a passionate full-stack developer and final-year Computer Science student at VIT Vellore, specializing in Information Security, with a current CGPA of 8.4.
+
+Academically, I’ve always been consistent — I completed my schooling at St. Joseph’s High School in Narasaraopet with 97%, and my intermediate at Jupiter Junior College in Guntur with 95.6%.
+
+I’ve built a strong foundation in Python, Django, HTML, CSS, and JavaScript. I’ve applied these skills across several real-world projects, including an LMS dashboard for a startup where both students and admins can manage their activities. I’ve developed around 5–6 websites for the same client and created an e-commerce-style webpage for a cloud ironing service.
+
+One of my key projects is Veriduce, a carbon credit system that supports environmental sustainability. I’ve also completed a certified Django course and am currently working on a live weather application.
+
+Additionally, I’ve completed two freelance projects, which gave me valuable experience in delivering results and handling client expectations. I’m now focusing on improving my Data Structures and Algorithms and actively looking for an opportunity to apply my skills, contribute to meaningful projects, and grow in a professional environment.
+
+On a personal note, I come from a supportive family — my father is an ex-serviceman, my mother is a homemaker, and my elder brother is a doctor. Their encouragement has always motivated me to stay disciplined, focused, and driven in everything I do."
